@@ -1,0 +1,59 @@
+:root{
+  --title-height: 250px;
+}
+
+header{
+  background-color: #191919
+}
+
+header a{
+  text-decoration: none;
+  color: #999;
+  display:inline-block;
+  margin: 20px;
+  font-size: 20px;
+}
+
+header b{
+  color: #444;
+}
+
+.menu a:hover{
+  color: #f1f1f1
+}
+
+body{
+  background:#F0FFDD;
+  font-family: didot, serif;
+  margin: 0
+}
+
+h1{
+    font-family: Optima, sans-serif;
+}
+
+.title{
+    background-image: url('images/title-background.jpg');
+    background-size: 2500px;/*220%*/
+    background-position: left 51.5% top 71%;
+    height: var(--title-height);
+    text-align: center;
+}
+
+.shade {
+  width: 100%;
+  height: 250px;
+  background: rgba(0,0,0,0.25);
+  position: relative;
+  padding-top: 5px;
+
+}
+
+.logo{
+  	background-image: url('images/logo-white.png');
+  	background-repeat:no-repeat;
+    background-position: center;
+  	background-size:contain;
+    height:100%;
+  	width:100%;
+}
