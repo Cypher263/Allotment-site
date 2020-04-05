@@ -24,13 +24,17 @@ header b{
 
 body{
   background:#F0FFDD;
-  font-family: didot, serif;
-  margin: 0
+  font-family: optiman, sans-serif;
+  font-size:20px ;
+  color:#333;
+  margin: 0;
 }
 
 h1{
-    font-family: Optima, sans-serif;
+    font-family: didot, serif;
+    font-size: 50px
 }
+
 
 .title{
     background-image: url('images/title-background.jpg');
@@ -56,4 +60,21 @@ h1{
   	background-size:contain;
     height:100%;
   	width:100%;
+}
+
+.icons{
+  float:right;
+}
+
+.main section{
+  background-color: #fff;
+  box-shadow: 0px 3px 15px 0px #aaa;
+  border-radius: 5px;
+  margin: 70px 70px;
+  padding: 20px 50px;
+}
+
+.centre{
+  display:block;
+  margin: auto;
 }
