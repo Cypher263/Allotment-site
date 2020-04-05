@@ -53,6 +53,10 @@ h1{
 
 }
 
+.home{
+margin: 0px;
+}
+
 .logo{
   	background-image: url('images/logo-white.png');
   	background-repeat:no-repeat;
