@@ -32,7 +32,8 @@ body{
 
 h1{
     font-family: didot, serif;
-    font-size: 50px
+    font-size: 50px;
+    text-align:left;
 }
 
 
@@ -81,4 +82,23 @@ margin: 0px;
 .centre{
   display:block;
   margin: auto;
+}
+
+.main-link{
+  text-decoration: none;
+  color: #999;
+  font-size: 25px;
+  font-family: didot, serif;
+}
+
+.main-link:hover{
+  color: #006400
+}
+
+.exec{
+  text-align: center;
+}
+
+.break{
+  color:#999;
 }
