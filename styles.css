@@ -101,6 +101,16 @@ margin: 0px;
   color: #006400
 }
 
+.sub-link{
+  text-decoration: none;
+  color: #999;
+  font-family: didot, serif;
+}
+
+.sub-link:hover{
+  color: #006400
+}
+
 .exec{
   text-align: center;
 }
